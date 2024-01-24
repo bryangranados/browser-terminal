@@ -10,7 +10,7 @@
   "email": "bryan@granados.cc",
   "ps1_hostname": "bg-30",
   "ps1_username": "guest",
-  "repo": "https://github.com/",
+  "repo": "https://github.com/diathekez/browser-terminal",
   "resume_url": "https://docs.google.com/document/d/190vDsqKsOGnbB-XVzcXKBcobig7bfidf/edit?usp=sharing&ouid=100244887075527874549&rtpof=true&sd=true",
   "coffee_urls": {
     "kofi": "https://ko-fi.com/diathekez",
@@ -27,13 +27,13 @@
       "red": "#CA2124"
     },
     "dark": {
-      "background": "#3B3228",
-      "foreground": "#cec6c4",
-      "yellow": "#89b2b4",
-      "green": "#f2bb86",
-      "gray": "#c95f76",
-      "blue": "#89b2b4",
-      "red": "#BF616A"
+      "background": "#282a36",
+      "foreground": "#f8f8f2",
+      "yellow": "#ffb86c",
+      "green": "#50fa7b",
+      "gray": "#bd93f9",
+      "blue": "#8be9fd",
+      "red": "#ff5555"
     }
   }
 }

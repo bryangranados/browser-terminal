@@ -33,12 +33,12 @@ export const about = async (args: string[]): Promise<string> => {
   return `Hi, I'm ${config.name}.
 
 Software engineer based (primarily) in South America.
-Currently working remotely at a software development agency.
-Mainly use MERN and work full-stack.
+Currently working at an international software development agency.
+Responsibilities focused around product design and solutions architecture.
 
 Love literary fiction, coffee, cats, and video games.
-Fine with the job situation but open to exploring new opportunities.
-Sometimes stream software development on Twitch for engineering students.
+Fine with the job situation but open to side gigs.
+Sometimes stream my work day on Twitch.
 
 Feel free to holla at me by sending an <u><a class="text-light-blue dark:text-dark-blue underline" href="mailto:bryan@granados.cc" target="_blank">email</a></u>
 or by scheduling a chat with me on <u><a class="text-light-blue dark:text-dark-blue underline" href="https://calendly.com/bryangranados/chat" target="_blank">Calendly</a></u>.
@@ -80,6 +80,12 @@ export const linkedin = async (args: string[]): Promise<string> => {
   window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
 
   return 'Opening linkedin...';
+};
+
+export const readme = async (args: string[]): Promise<string> => {
+  window.open(`${config.readmeUrl}/`);
+
+  return 'Opening my github readme...';
 };
 
 // Search
