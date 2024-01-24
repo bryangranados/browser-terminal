@@ -48,7 +48,7 @@ Hope you have a wonderful day!
 Try out these commands:
 'sumfetch' - short contact summary.
 'resume' - my resume.
-'readme' - my github readme.`;
+'bio' - my github readme bio.`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
@@ -82,10 +82,10 @@ export const linkedin = async (args: string[]): Promise<string> => {
   return 'Opening linkedin...';
 };
 
-export const readme = async (args: string[]): Promise<string> => {
-  window.open(`${config.readmeUrl}/`);
+export const bio = async (args: string[]): Promise<string> => {
+  window.open(`${config.bioUrl}/`);
 
-  return 'Opening my github readme...';
+  return 'Opening my github readme bio...';
 };
 
 // Search
